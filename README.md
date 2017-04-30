@@ -29,6 +29,12 @@ Set title of the button and callback function via props:
 </upload-button>
 ```
 
+### Callback function
+
+Vital part of functionality is the callback function. When you have selected file or cancelled new selection you will get callback with the given file (as ```File``` -object). File can be then passed to e.g. to Vue-Resource to do the actual upload. Callback will send ```null``` if selection of new file was cancelled.
+More info about [File -object](https://developer.mozilla.org/en-US/docs/Web/API/File) in the MDN. 
+
+### Styling
 If you want to modify styles do it in the component file directly. Currently defines as:
 
 ```
