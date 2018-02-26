@@ -1,7 +1,6 @@
 <template>
-  <v-btn dark class="btn--dark-flat-focused jbtn-file">
-    {{ title }}<input id="selectFile" type="file" v-on:change="fileSelected">
-  </v-btn>
+  <div class="btn btn-primary jbtn-file"> {{ title }}<input
+    type="file" v-on:change="fileSelected"></div>
 </template>
 
 <script>
@@ -38,7 +37,6 @@
     right: 0;
     min-width: 100%;
     min-height: 100%;
-    font-size: 100px;
     text-align: right;
     filter: alpha(opacity=0);
     opacity: 0;

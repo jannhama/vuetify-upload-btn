@@ -5,7 +5,7 @@ Simple component to handle file selection for upload.
 
 Copy ```UploadButton.vue``` to part of our project and require/import if using bundler.
 
-Tested only to work with Vue2 and Vuetify 0.11.1
+Tested to work with Vue 2.5.x and Vuetify 1.0.3 
 
 ## How to use
 
@@ -41,7 +41,7 @@ If you want to modify styles do it in the component file directly. Currently def
 <v-btn dark class="btn--dark-flat-focused jbtn-file">
 ```
 
-&copy; 2016 Janne Hämäläinen.
+&copy; 2018 Janne Hämäläinen.
  
 ## License 
 Released under [MIT](https://opensource.org/licenses/MIT) license.
